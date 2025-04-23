@@ -7,9 +7,10 @@ import iolani_palace from "@assets/images/iolani_palace.jpg";
 import mutianyu_great_wall from "@assets/images/mutianyu_great_wall.jpg";
 import pyramid from "@assets/images/pyramid.jpg";
 import shat_gambuj_mosque from "@assets/images/shat_gambuj_mosque.jpg"
+import { FeatureType } from "../../types/featureType";
 
 export default function Home() {
-  const features = [
+  const features: FeatureType[] = [
     {
       title: "Eiffel Tower",
       description: "An iconic symbol of France, located in Paris.",
@@ -52,7 +53,7 @@ export default function Home() {
   return (
     <div className="main_wrapper">
         <Hero />
-        <Features />
+        <Features features={features}/>
         <Footer />
     </div>
   );
