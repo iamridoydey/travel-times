@@ -6,7 +6,7 @@ interface FeaturesProps {
 }
 const Features = ({ features }: FeaturesProps) => {
   return (
-    <div className="mx-8">
+    <div id="features" className="mx-8">
       <div>
         <h1 className="feature_title text-center my-8 text-2xl md:text-4xl font-bold text-gray-600">
           🌏Explore Few Wonderful Place
