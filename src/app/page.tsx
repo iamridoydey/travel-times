@@ -49,7 +49,6 @@ export default function Home() {
     },
   ];
 
-  console.log(features)
   return (
     <div className="main_wrapper">
         <Hero />

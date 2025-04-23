@@ -1,7 +1,6 @@
 import travel_times_hero from "@assets/images/travel_times_hero.jpg";
 
 const Hero = () => {
-  console.log(travel_times_hero);
   return (
     <div
       style={{

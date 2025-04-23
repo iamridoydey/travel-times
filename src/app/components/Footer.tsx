@@ -4,11 +4,16 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="mt-8 text-center p-8 bg-gray-900 text-gray-300">
+    <footer
+      id="contact"
+      className="mt-8 text-center p-8 bg-gray-900 text-gray-300"
+    >
       {/* Section for Logo and address | contact */}
       <div className="flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="flex flex-col items-center gap-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-white">TRAVEL TIMES</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white">
+            TRAVEL TIMES
+          </h2>
           <div className="text-sm">
             <p className="mb-2">
               123 Travel Lane <br /> Adventure City, Country
@@ -21,13 +26,15 @@ const Footer = () => {
         </div>
         <div className="hidden md:block border-l border-gray-600 h-32"></div>
         <div className="max-w-md text-center md:text-left">
-          <h2 className="text-3xl font-bold text-white mb-4">Breifly About Us</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Briefly About Us
+          </h2>
           <p className="text-sm leading-relaxed">
             At Travel Times, we believe that every journey tells a story. Our
             mission is to inspire and guide travelers to explore the world with
-            confidence and excitement. Whether you're seeking adventure,
-            relaxation, or cultural experiences, we're here to make your travel
-            dreams a reality.
+            confidence and excitement. Whether you&apos;re seeking adventure,
+            relaxation, or cultural experiences, we&apos;re here to make your
+            travel dreams a reality.
           </p>
           <p className="text-sm leading-relaxed mt-4">
             Join us on this incredible journey as we explore the beauty of the
