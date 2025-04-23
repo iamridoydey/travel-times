@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Travel Time",
+  title: "Travel Times",
   description: "Travel Anywhere In The World",
 };
 
