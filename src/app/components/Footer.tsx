@@ -8,7 +8,7 @@ const Footer = () => {
       {/* Section for Logo and address | contact */}
       <div className="flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="flex flex-col items-center gap-4">
-          <h2 className="text-4xl font-bold text-white">TRAVEL TIMES</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white">TRAVEL TIMES</h2>
           <div className="text-sm">
             <p className="mb-2">
               123 Travel Lane <br /> Adventure City, Country
